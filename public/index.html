@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <h1>Weather App</h1>
+        <div class="search-container">
+          <input type="text" id="city-search" placeholder="Enter city name" />
+          <button  id="search-button">Search</button>
+        </div>
+      </header>
+      <main id="weather-container">
+        <!-- Weather data will be displayed here -->
+      </main>
+      <footer>
+        <p>Powered by Visual Crossing Weather API</p>
+      </footer>
+    </div>
+    <!-- Remove this line as webpack will handle the script -->
+    <!-- <script src="../src/index.js"></script> -->
+  </body>
+</html>
